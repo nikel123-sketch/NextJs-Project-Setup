@@ -3,11 +3,11 @@ import { useRouter } from "next/navigation";
 import React from "react";
 
 const Banner = () => {
-    const route=useRouter()
+    const router=useRouter()
     const hendlebtn=()=>{
         const password=prompt('inter your password')
         if(password==='1234'){
-            route.push('/dashbord')
+            router.push('/dashbord')
         }
     }
   return (

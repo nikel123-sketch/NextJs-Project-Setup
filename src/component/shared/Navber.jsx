@@ -12,6 +12,7 @@ const Navber = () => {
                 <NavLink href={'/register'}>Register</NavLink>
                 <NavLink href={'/about'}>About</NavLink>
                 <NavLink href={'/about/tutorials'}>Tutorials</NavLink>
+                <NavLink href={'/storis'}>Storis</NavLink>
                
             </div>
         </div>
