@@ -10,7 +10,7 @@ const NavLink = ({ href, children }) => {
 
   return (
     <div>
-      <Link className={`${isActive? 'underline font-bold text-amber-500':''}`} href={href}>{children}</Link>
+      <Link className={`${isActive? 'underline  font-bold text-amber-500':''}`} href={href}>{children}</Link>
     </div>
   );
 };
