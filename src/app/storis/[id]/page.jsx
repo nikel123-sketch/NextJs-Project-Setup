@@ -48,7 +48,7 @@ const StorisDetails = async({params}) => {
     const {id}=await params;
 
     const singlestory=storisdata.find(d=>d.id===Number(id));
-    console.log(singlestory)
+    // console.log(singlestory)
     const { name,  title, description, image } = singlestory;
    if(!singlestory){
     return <p>story not found</p>

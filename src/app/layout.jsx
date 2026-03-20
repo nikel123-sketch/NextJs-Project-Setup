@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navber></Navber>
 
-        <main className="bg-sky-300 text-black font-bold text-3xl p-5 rounded-2xl mt-5">
+        <main className="bg-sky-300 text-black   p-5 rounded-2xl mt-5">
         {children}
         </main>
         </body>
